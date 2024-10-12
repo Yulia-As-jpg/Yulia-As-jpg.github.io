@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    color: #1B1C21;
+    margin: 0;
+    min-height: 100%;
+    min-width: 1120px;
+    padding: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+  
+a {
+    text-decoration: none;
+}
+
+.changing-section {
+    display: flex;
+    align-items: center;
+}
+  
+.btn {
+    all: unset;
+}
+
+.blog-burger__menu {
+    background-image: url(/image/burger.svg);
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.blog-freedback__call {
+    background-image: url(/image/call.svg);
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.blog-freedback__chat {
+    background-image: url(/image/chat.svg);
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.blog-freedback__profile {
+    background-image: url(/image/profile.svg);
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.blog-repair__application {
+    background-image: url(/image/repair.svg);
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.blog-repair__checkstatus {
+    background-image: url(/image/checkstatus.svg);
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.blog-title {
+    display: flex;
+    align-items: center;
+}
+
+.blog-title__heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: -0.06em;
+}
+
+.blog-title__heading::before {
+    content: "";
+    display: inline-block;
+    background-color: #41F6D7;
+    width: 4px;
+    height: 40px;
+    transform: rotate(-180deg);
+}
+
+.blog-nav__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.blog-nav__link {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #7E7E82;
+    padding: 8px 16px;
+    background-color: unset;
+    border: 2px solid transparent;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.blog-nav__link:focus {
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    outline: none;
+}
+
+.blog-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-info__text {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+.blog-info__link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #1B1C21;
+    background-image: url(/image/icon.svg);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+}
