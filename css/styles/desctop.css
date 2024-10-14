@@ -58,4 +58,8 @@
     .blog-info__image-cps {
         border-radius: 6px;
     }
+
+    .blog-info__link {
+        margin-bottom: 149px;
+    }
 }

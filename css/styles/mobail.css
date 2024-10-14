@@ -40,7 +40,7 @@
       background-color: #F8F8F8;
   }
   
-  .content :not(:first-child) :not(:last-child) {
+  .content :not(:first-child) {
       padding: 0 16px;
   }
 
@@ -64,6 +64,10 @@
 
   .blog-info__desc {
       display: none;
+  }
+
+  .blog-info__link  {
+    margin-bottom: 16px;
   }
 
 }
