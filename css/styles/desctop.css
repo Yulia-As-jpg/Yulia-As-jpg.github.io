@@ -27,7 +27,35 @@
         align-items: center;
     }
 
+    .blog-repair__application {
+        margin-right: 32px; 
+    }
+
     .blog-nav__list {
         flex-wrap: wrap;
+        padding: 0 25px 16px 35px;
+    }
+
+    .blog-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 36px;
+        padding-left: 34px;
+        padding-right: 29px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .blog-info__image {
+        display: flex;
+        flex: 1;
+    }
+
+    .blog-info__image-cps {
+        border-radius: 6px;
     }
 }
